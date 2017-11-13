@@ -1,0 +1,29 @@
+<project>
+  <groupId>darmalovan-snyk</groupId>
+  <artifactId>gradle-test</artifactId>
+  <version>0.0.0</version>
+
+  <repositories>
+
+    <repository>
+      <url>https://nexus.lukecollins.net/repository/maven-public/</url>
+    </repository>
+
+    <repository>
+      <url>https://nexus.lukecollins.net/repository/lcnet/</url>
+    </repository>
+
+  </repositories>
+
+
+  <dependencies>
+
+    <dependency>
+      <groupId>org.apache.httpcomponents</groupId>
+      <artifactId>httpmime</artifactId>
+      <version>4.5.3</version>
+    </dependency>
+
+  </dependencies>
+
+</project>
